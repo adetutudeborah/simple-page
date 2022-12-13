@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zikora: A Short Story</title>
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+   
+  <body>
+    <div class="container">
+      <h1>Zikora: A Short Story</h1>
+      <h2>By Chimamanda Ngozi Adichie</h2>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/538/original/zikora.jpg?1657025860"
+        alt="Zikora"
+      />
+
+      <p>
+        The emotional storms weathered by a mother and daughter yield a profound
+        new understanding in a moving short story by
+        <a
+          href="https://www.chimamanda.com/welcome/"
+          target="_blank"
+          class="author"
+        >
+          Chimamanda Ngozi Adichie</a
+        >,the bestselling, award-winning author of Americanah and We Should All
+        Be Feminists.
+      </p>
+
+      <p>
+        When Zikora, a DC lawyer from Nigeria, tells her equally high-powered
+        lover that she’s pregnant, he abandons her. But it’s Zikora’s demanding,
+        self-possessed mother, in town for the birth, who makes Zikora feel like
+        a lonely little girl all over again.
+      </p>
+
+      <p>
+        Stunned by the speed with which her ideal life fell apart, she turns to
+        reflecting on her mother’s painful past and struggle for dignity.
+        Preparing for motherhood, Zikora begins to see more clearly what her own
+        mother wants for her, for her new baby, and for herself.
+      </p>
+
+      <a
+        href="https://www.oprahdaily.com/entertainment/a34481964/chimamanda-ngozi-adichie-zikora-short-story/"
+        target="_blank"
+        class="read-more"
+        >Read more about the book📖
+      </a>
+
+      <button class="button" type="button">Buy the book now!</button>
+    </div>
+
+    <p class="attribution">Coded by Adetutu Oluwasanmi</p>
+
+    <script>
+      function buyNow() {
+        let firstName = prompt("What is your first name?");
+        let email = prompt("What is your email address?");
+
+        alert("Thank you " + firstName + "!😊 We will be in touch via email.");
+      }
+
+      let orderButton = document.querySelector("button");
+      orderButton.addEventListener("click", buyNow);
+    </script>
+  </body>
+</html>
